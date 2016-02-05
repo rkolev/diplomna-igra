@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AnimateObject.cpp">
+      <Filter>Game Objects\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Game Objects\src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game Objects\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingObject.cpp">
+      <Filter>Game Objects\src</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Game Objects\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game Objects\src</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Game Objects\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Game Objects\src</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>Game Objects\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Address.cpp">
+      <Filter>Networking\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientConnection.cpp">
+      <Filter>Networking\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Networking\src</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketQueue.cpp">
+      <Filter>Networking\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ReliabilitySystem.cpp">
+      <Filter>Networking\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConnection.cpp">
+      <Filter>Networking\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Networking\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavior.cpp">
+      <Filter>AI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilsBehavior.cpp">
+      <Filter>AI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game World\src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>Game World\src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>Game World\src</Filter>
+    </ClCompile>
+    <ClCompile Include="HotseatGame.cpp">
+      <Filter>Game World\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game World\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>General\src</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParser.cpp">
+      <Filter>Utilities\src</Filter>
+    </ClCompile>
+    <ClCompile Include="util\external\pugixml.cpp">
+      <Filter>Utilities\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utilities\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimateObject.h">
+      <Filter>Game Objects\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Game Objects\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game Objects\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingObject.h">
+      <Filter>Game Objects\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>Game Objects\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game Objects\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Game Objects\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Game Objects\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>Game Objects\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>Networking\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientConnection.h">
+      <Filter>Networking\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Networking\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Networking\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketQueue.h">
+      <Filter>Networking\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ReliabilitySystem.h">
+      <Filter>Networking\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnection.h">
+      <Filter>Networking\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Networking\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavior.h">
+      <Filter>AI\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilsBehavior.h">
+      <Filter>AI\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game World\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h">
+      <Filter>Game World\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServer.h">
+      <Filter>Game World\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="HotseatGame.h">
+      <Filter>Game World\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game World\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>General\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h">
+      <Filter>General\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>General\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="util\external\pugiconfig.hpp">
+      <Filter>Utilities\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="util\external\pugixml.hpp">
+      <Filter>Utilities\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlParser.h">
+      <Filter>Utilities\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utilities\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{40c917c5-d4f3-4e1b-ab03-258e3f689057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking">
+      <UniqueIdentifier>{2b55f480-b8a8-4bca-bd97-dfcd9bb2f486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{6e8550b5-7134-4c31-9856-03800974cf41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{7609926e-4564-4a2f-9c01-5afdf16286c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game World">
+      <UniqueIdentifier>{421ca6e8-65b0-44a7-8712-d7ff4a170602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{08c221d2-bd8f-4d97-94e9-07116c95d166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\src">
+      <UniqueIdentifier>{2a7e7f37-a652-40c2-a28d-dd842938fb92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\inc">
+      <UniqueIdentifier>{39ee00a8-0eb3-420f-aef8-152e43d345ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\src">
+      <UniqueIdentifier>{0d2ff07a-39b6-47f8-8db3-3096d4858b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\inc">
+      <UniqueIdentifier>{44f3d793-a7fb-4b33-b889-b439a582d53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\src">
+      <UniqueIdentifier>{82a43273-9968-4638-8c15-a9f60e9c40e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\inc">
+      <UniqueIdentifier>{c6813c14-67ef-40cf-bfeb-71b843602356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game World\src">
+      <UniqueIdentifier>{bbe98996-7109-4438-a164-e34fb1df36f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game World\inc">
+      <UniqueIdentifier>{1906f471-bc9a-4cb0-8779-df50fb0415ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\src">
+      <UniqueIdentifier>{f1b21257-da38-4290-b461-0c41b59e6238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\inc">
+      <UniqueIdentifier>{06ba59af-41ea-4631-a1a5-cb47f0d38849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\src">
+      <UniqueIdentifier>{24963cef-138e-4149-8b93-562c63320c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\inc">
+      <UniqueIdentifier>{a98c80fe-6ac3-40e2-87f9-2036f9a2fa49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources.xml">
+      <Filter>General</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+<ObjectData>
+	<!-- Flags -->
+	<Collidable>1</Collidable>
+	<Destructible>0</Destructible>
+	<AffectedByGravity>1</AffectedByGravity>
+	<Omnidirectional>1</Omnidirectional>
+	<CanAttack>0</CanAttack>
+	
+	<!-- Animation Sprites & bounds -->
+	<IdleSprite>BlueFlameFly</IdleSprite>
+	<MoveSprite>BlueFlameFly</MoveSprite>
+	<BoundOffsets left = "0" right = "100" top = "0" bottom="100" />
+	
+	<!-- Collision data -->
+	<CollisionPoints>
+		<TopOne x="3" y="5" />
+		<TopTwo x="3" y="5" />
+		<BottomOne x="3" y="5" />
+		<BottomTwo x="3" y="5" />
+		<LeftOne x="3" y="5" />
+		<LeftTwo x="3" y="5" />
+		<RightOne x="3" y="5" />
+		<RightTwo x="3" y="5" />
+	</CollisionPoints>
+	
+	<!-- Stats -->
+	<xSpeed>0.6</xSpeed>
+	<ySpeed>0.8</ySpeed>
+	<CompositeSpeed>0</CompositeSpeed>
+</ObjectData>

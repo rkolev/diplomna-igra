@@ -1,0 +1,41 @@
+<ObjectData>
+	<!-- Flags -->
+	<Collidable>1</Collidable>
+	<Destructible>0</Destructible>
+	<AffectedByGravity>1</AffectedByGravity>
+	<Omnidirectional>0</Omnidirectional>
+	<CanAttack>1</CanAttack>
+	
+	<!-- Animation Sprites & bounds -->
+	<IdleSprite>IdleSpriteExample</IdleSprite>
+	<MoveSprite>MoveSpriteExample</MoveSprite>	
+	<AttackSprite>AttackSpriteExample</AttackSprite>
+	<BoundOffsets left = "0" right = "100" top = "0" bottom="100" />
+	<AttackBounds left = "15" right = "20" top = "15" bottom = "25" />
+	
+	<!-- Collision data -->
+	<CollisionPoints>
+		<TopOne x="3" y="5" />
+		<TopTwo x="3" y="5" />
+		<BottomOne x="3" y="5" />
+		<BottomTwo x="3" y="5" />
+		<LeftOne x="3" y="5" />
+		<LeftTwo x="3" y="5" />
+		<RightOne x="3" y="5" />
+		<RightTwo x="3" y="5" />
+	</CollisionPoints>
+	
+	<!-- Stats -->
+	<xSpeed>5.3</xSpeed>
+	<ySpeed>6.4</ySpeed>	
+	<CompositeSpeed>8.3</CompositeSpeed>	
+	<AttackType>Melee</AttackType>
+	<SightRadius>300</SightRadius>
+	<AttackRange>50</AttackRange>
+	<AttackPower>25</AttackPower>
+	<AttackCooldown>800</AttackCooldown>
+	<AttackFrame>2</AttackFrame>
+	<AttackPower>0</AttackPower>	
+	<ContactDamage>0</ContactDamage>
+	<MaxLife>0</MaxLife>
+</ObjectData>

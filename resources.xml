@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- BACKGROUNDS -->
+  <sprite name="Background1">
+    <image file="Sprites_gfx\backgrounds\background1.png">
+      <grid size="560,272" array="8,1" />
+    </image>
+    <scale x="2.0" y="2.0" />
+    <animation speed="100" loop="yes" pingpong="no" />
+  </sprite>
+  <!-- BACKGROUNDS END -->
+  
+  <!-- TILESETS -->
+  <sprite name="TileSet1">
+    <image file="Sprites_gfx\tiles\tileset1.png">
+      <grid size="32,32" array="6,1" />
+    </image>
+    <translation origin="top_left" />
+  </sprite>
+  <sprite name="Tile1Idle">
+    <image file="Sprites_gfx\tiles\tile1.png" />
+    <translation origin="top_left" />
+  </sprite>
+  <sprite name="Tile2Idle">
+    <image file="Sprites_gfx\tiles\tile10.png" />
+    <translation origin="top_left" />
+  </sprite>
+  <!-- TILESETS END -->
+  
+  <!-- PROJECTILES -->
+
+  <sprite name="FireballFly">
+    <image file="Sprites_gfx\missiles\FireballFly.png">
+      <grid size="45,14" array="8,1" />
+    </image>
+    <animation speed="100" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+
+  <sprite name="BlueFlameFly">
+    <image file="Sprites_gfx\missiles\BlueFlameFly.png">
+      <grid size="65,70" array="8,1" />
+    </image>
+    <scale x="0.5" y="0.5" />
+    <animation speed="100" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+  
+  <!-- PROJECTILES END -->
+  
+  <!-- SQUIRE SPRITES -->
+  <!-- Attack animations -->
+
+  <sprite name="SquireAttack">
+    <image file="Sprites_gfx\squire\squire_attack_right.png">
+      <grid size="100,56" array="6,1" />
+    </image>
+    <animation speed="50" loop="no" pingpong="no" on_finish="last_frame" />
+    <translation origin="center" />
+  </sprite>
+  
+  <!-- Movement animations -->
+
+  <sprite name="SquireMove">
+    <image file="Sprites_gfx\squire\squire_move_right.png">
+      <grid size="50,56" array="6,1" />
+    </image>
+    <animation speed="100" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+  
+  <!-- Jumping animations -->
+  
+  <sprite name="SquireJump">
+    <image file="Sprites_gfx\squire\squire_jump_right.png" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- Fall animations -->
+  
+  <sprite name="SquireFall">
+    <image file="Sprites_gfx\squire\squire_jump_Right.png" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- Idle animations -->
+  
+  <sprite name="SquireIdle">
+    <image file="Sprites_gfx\squire\squire_idle_right.png">
+      <grid size="76,56" array="4,1" />
+    </image>
+    <animation speed="200" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+  
+  <!-- SQUIRE END -->
+  
+  <!-- VAMPIRE -->
+  <!-- Attack animations -->
+
+  <sprite name="VampireAttackLeft">
+    <image file="Sprites_gfx\vampire\vamp_attack_left.png">
+      <grid size="76,64" array="5,1" />
+    </image>
+    <animation speed="100" loop="no" pingpong="no" on_finish="last_frame" />
+    <translation origin="center" />
+  </sprite>
+  
+  <sprite name="VampireAttack">
+    <image file="Sprites_gfx\vampire\vamp_attack_right.png">
+      <grid size="76,64" array="5,1" />
+    </image>
+    <animation speed="100" loop="no" pingpong="no" on_finish="last_frame" />
+    <translation origin="center" />
+  </sprite>
+  
+  <!-- Movement animations -->
+  
+  <sprite name="VampireMoveLeft">
+    <image file="Sprites_gfx\vampire\vamp_idle_move_left.png">
+      <grid size="76,64" array="4,1" />
+    </image>
+    <animation speed="150" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+
+  <sprite name="VampireMove">
+    <image file="Sprites_gfx\vampire\vamp_idle_move_right.png">
+      <grid size="76,64" array="4,1" />
+    </image>
+    <animation speed="150" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+  
+  <!-- Jumping animations -->
+
+  <sprite name="VampireJumpLeft">
+    <image file="Sprites_gfx\vampire\vamp_jump_left.png">
+      <grid size="76,64" array="4,1" />
+    </image>
+    <animation speed="600" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+  <sprite name="VampireJump">
+    <image file="Sprites_gfx\vampire\vamp_jump_right.png">
+      <grid size="76,64" array="4,1" />
+    </image>
+    <animation speed="600" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- Fall animations -->
+  
+  <sprite name="VampireFall">
+    <image file="Sprites_gfx\vampire\vamp_jump_right.png">
+      <grid size="76,64" array="4,1" />
+    </image>
+    <animation speed="600" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+  <!-- Idle animations -->
+  
+  <sprite name="VampireIdleLeft">
+    <image file="Sprites_gfx\vampire\vamp_idle_move_left.png">
+      <grid size="76,64" array="4,1" />
+    </image>
+    <animation speed="200" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+  <sprite name="VampireIdle">
+    <image file="Sprites_gfx\vampire\vamp_idle_move_right.png">
+      <grid size="76,64" array="4,1" />
+    </image>
+    <animation speed="200" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- WRAITH SPRITES -->
+  <!-- Attack animations -->
+
+  <sprite name="WraithAttack">
+    <image file="Sprites_gfx\wraith\WraithAttack.png">
+      <grid size="300,100" array="7,1" />
+    </image>
+    <scale x="0.5" y="0.5" />
+    <animation speed="50" loop="no" pingpong="no" on_finish="last_frame" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- Movement animations -->
+
+  <sprite name="WraithMove">
+    <image file="Sprites_gfx\wraith\WraithMove.png">
+      <grid size="100,100" array="6,1" />
+    </image>
+    <scale x="0.5" y="0.5" />
+    <animation speed="100" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- Jumping animations -->
+
+  <sprite name="WraithJump">
+    <image file="Sprites_gfx\wraith\WraithJump.png">
+      <grid size="100,100" array="6,1" />
+      <animation speed="200" loop="yes" pingpong="no" />
+    </image>
+    <scale x="0.5" y="0.5" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- Fall animations -->
+
+  <sprite name="WraithFall">
+    <image file="Sprites_gfx\wraith\WraithFall.png">
+      <grid size="100,100" array="6,1" />
+      <animation speed="200" loop="yes" pingpong="no" />
+    </image>
+    <scale x="0.5" y="0.5" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- Idle animations -->
+
+  <sprite name="WraithIdle">
+    <image file="Sprites_gfx\wraith\WraithIdle.png">
+      <grid size="100,100" array="6,1" />
+    </image>
+    <scale x="0.5" y="0.5" />
+    <animation speed="200" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- Wraith END -->
+  
+  <!-- ZOMBIE_DOG SPRITES -->
+  <!-- Attack animations -->
+
+  <sprite name="ZombieDogAttack">
+    <image file="Sprites_gfx\zombieDog\ZombieDogAttack.png">
+      <grid size="100,100" array="4,1" />
+    </image>
+    <scale x="0.75" y="0.75" />
+    <animation speed="200" loop="no" pingpong="no" on_finish="last_frame" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- Movement animations -->
+
+  <sprite name="ZombieDogMove">
+    <image file="Sprites_gfx\zombieDog\ZombieDogMove.png">
+      <grid size="100,100" array="6,1" />
+    </image>
+    <scale x="0.75" y="0.75" />
+    <animation speed="100" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- Jumping animations -->
+
+  <sprite name="ZombieDogJump">
+    <image file="Sprites_gfx\zombieDog\ZombieDogJump.png">
+      <grid size="100,100" array="2,1" />
+      <animation speed="100" loop="yes" pingpong="no" />
+    </image>
+    <scale x="0.75" y="0.75" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- Fall animations -->
+
+  <sprite name="ZombieDogFall">
+    <image file="Sprites_gfx\zombieDog\ZombieDogFall.png">
+      <grid size="100,100" array="3,1" />
+      <animation speed="100" loop="yes" pingpong="no" />
+    </image>
+    <scale x="0.75" y="0.75" />
+    <translation origin="center" />
+  </sprite>
+
+  <!-- Idle animations -->
+
+  <sprite name="ZombieDogIdle">
+    <image file="Sprites_gfx\zombieDog\ZombieDogIdle.png">
+      <grid size="100,100" array="3,1" />
+    </image>
+    <scale x="0.75" y="0.75" />
+    <animation speed="200" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+  
+  <!-- Spawn animation -->
+  
+  <sprite name="ZombieDogSpawn">
+    <image file="Sprites_gfx\zombieDog\ZombieDogSpawn.png">
+      <grid size="100,100" array="3,1" />
+    </image>
+    <scale x="0.75" y="0.75" />
+    <animation speed="200" loop="yes" pingpong="no" />
+    <translation origin="center" />
+  </sprite>
+</resources>

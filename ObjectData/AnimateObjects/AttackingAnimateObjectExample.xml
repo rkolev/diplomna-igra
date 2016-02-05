@@ -1,0 +1,21 @@
+<ObjectData>
+	<!-- Flags -->
+	<Collidable>0</Collidable>
+	<Destructible>0</Destructible>
+	<CanAttack>1</CanAttack>
+	
+	<!-- Animation Sprites & bounds -->
+	<IdleSprite>SpriteIdle</IdleSprite>
+	<AttackSprite>SpriteAttack</AttackSprite>
+	<BoundOffsets left = "0" right = "100" top = "0" bottom="100" />
+	<AttackBounds left = "15" right = "20" top = "15" bottom = "25" />
+	
+	<!-- Stats -->
+	<SightRadius>300</SightRadius>
+	<AttackRange>50</AttackRange>
+	<AttackPower>25</AttackPower>
+	<AttackCooldown>800</AttackCooldown>
+	<AttackFrame>2</AttackFrame>
+	<ContactDamage>0</ContactDamage>
+	<MaxLife>0</MaxLife>
+</ObjectData>

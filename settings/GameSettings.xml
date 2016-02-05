@@ -1,0 +1,4 @@
+<GameData>
+	<Type>2</Type> <!-- 0: single player; 1:hotseat; 2: server; 3: client -->
+	<Level>Level1</Level>
+</GameData>

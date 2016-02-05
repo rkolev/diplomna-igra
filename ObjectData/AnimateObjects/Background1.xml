@@ -1,0 +1,14 @@
+<ObjectData>
+	<!-- Flags -->
+	<Collidable>0</Collidable>
+	<Destructible>0</Destructible>
+	<CanAttack>0</CanAttack>
+	
+	<!-- Animation Sprites & bounds -->
+	<IdleSprite>Background1</IdleSprite>
+	<BoundOffsets left = "0" right = "560" top = "0" bottom="272" />
+	
+	<!-- Stats -->
+	<ContactDamage>0</ContactDamage>
+	<MaxLife>0</MaxLife>
+</ObjectData>

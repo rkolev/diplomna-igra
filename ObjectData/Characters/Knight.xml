@@ -1,0 +1,50 @@
+<ObjectData>
+	<!-- Flags -->
+	<Collidable>0</Collidable>
+	<Destructible>1</Destructible>
+	<AffectedByGravity>1</AffectedByGravity>
+	<Omnidirectional>0</Omnidirectional>
+	<CanAttack>1</CanAttack>
+	<Spectral>0</Spectral>
+	
+	<!-- Animation Sprites & bounds -->
+	<IdleSprite>SquireIdle</IdleSprite>
+	<AttackSprite>SquireAttack</AttackSprite>
+	<MoveSprite>SquireMove</MoveSprite>
+	<JumpSprite>SquireJump</JumpSprite>
+	<FallSprite>SquireFall</FallSprite>
+	<BoundOffsets left = "20" right = "20" top = "18" bottom="28" />
+	<AttackBounds left="16" right="19" top="28" bottom="28" />
+	
+	<!-- Collision data -->
+	<CollisionPoints>
+		<TopOne x="10" y="0" />
+		<TopTwo x="30" y="0" />
+		<BottomOne x="10" y="46" />
+		<BottomTwo x="30" y="46" />
+		<LeftOne x="0" y="10" />
+		<LeftTwo x="0" y="35" />
+		<RightOne x="40" y="10" />
+		<RightTwo x="40" y="35" />
+	</CollisionPoints>
+	
+	<!-- Stats -->
+	<SightRadius>300</SightRadius>
+	<MovementAngle>85</MovementAngle>
+	<MaxLife>2500</MaxLife>
+	<JumpTime>100</JumpTime>
+	
+	<!-- MELEE 0 -->
+	<!-- FIREBALL 1 -->
+	<!-- BLUE_FLAME 2 -->
+	<AttackType>0</AttackType>	
+	<AttackCooldown>50</AttackCooldown>	
+	<AttackRange>30</AttackRange>
+	<AttackFrame>2</AttackFrame>	
+	<ContactDamage>0</ContactDamage>
+s	
+	<!-- Speeds -->
+	<xSpeed>0.4</xSpeed>
+	<ySpeed>0.8</ySpeed>
+	<CompositeSpeed>0.5</CompositeSpeed>
+</ObjectData>

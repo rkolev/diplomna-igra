@@ -1,0 +1,44 @@
+<ObjectData>
+	<!-- Flags -->
+	<Collidable>0</Collidable>
+	<Destructible>1</Destructible>
+	<CanAttack>1</CanAttack>
+	<AffectedByGravity>1</AffectedByGravity>
+	<Omnidirectional>0</Omnidirectional>
+	<Spectral>0</Spectral>
+	
+	<!-- Animation Sprites & bounds -->
+	<IdleSprite>VampireIdle</IdleSprite>
+	<AttackSprite>VampireAttack</AttackSprite>
+	<MoveSprite>VampireMove</MoveSprite>
+	<JumpSprite>VampireJump</JumpSprite>
+	<FallSprite>VampireJump</FallSprite>
+	<BoundOffsets left = "17" right = "17" top = "24" bottom="32" />
+	<AttackBounds left="16" right="19" top="28" bottom="28" />
+	
+	<!-- Collision data -->
+	<CollisionPoints>
+		<TopOne x="10" y="0" />
+		<TopTwo x="24" y="0" />
+		<BottomOne x="10" y="56" />
+		<BottomTwo x="24" y="56" />
+		<LeftOne x="0" y="15" />
+		<LeftTwo x="0" y="41" />
+		<RightOne x="34" y="15" />
+		<RightTwo x="34" y="41" />
+	</CollisionPoints>
+	
+	<!-- Stats -->
+	<xSpeed>0.35</xSpeed>
+	<ySpeed>1</ySpeed>
+	<compositeSpeed>0</compositeSpeed>
+	<AttackType>Fireball</AttackType>
+	<SightRadius>0</SightRadius>
+	<AttackPower>120</AttackPower>	
+	<AttackCooldown>1200</AttackCooldown>	
+	<AttackRange>50</AttackRange>	
+	<AttackFrame>3</AttackFrame>
+	<ContactDamage>0</ContactDamage>
+	<MaxLife>240</MaxLife>
+	<JumpTime>120</JumpTime>
+</ObjectData>

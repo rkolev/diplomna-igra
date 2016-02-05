@@ -1,0 +1,13 @@
+<ObjectData>
+	<!-- Flags -->
+	<Collidable>1</Collidable>
+	<Destructible>1</Destructible>
+	
+	<!-- Animation Sprites & bounds -->
+	<IdleSprite>Tile1Idle</IdleSprite>
+	<BoundOffsets left = "0" right = "32" top = "0" bottom="32" />
+	
+	<!-- Stats -->
+	<ContactDamage>0</ContactDamage>
+	<MaxLife>0</MaxLife>
+</ObjectData>

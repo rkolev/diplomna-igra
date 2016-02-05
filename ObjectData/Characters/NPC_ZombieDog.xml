@@ -1,0 +1,60 @@
+<ObjectData>
+	<!-- Flags -->
+	<Collidable>0</Collidable>
+	<Destructible>1</Destructible>
+	<CanAttack>1</CanAttack>
+	<AffectedByGravity>1</AffectedByGravity>
+	<Spectral>0</Spectral>	
+	<Omnidirectional>0</Omnidirectional>
+	
+	<!-- Animation Sprites & bounds -->
+	<IdleSprite>ZombieDogIdle</IdleSprite>
+	<AttackSprite>ZombieDogAttack</AttackSprite>
+	<MoveSprite>ZombieDogMove</MoveSprite>
+	<JumpSprite>ZombieDogJump</JumpSprite>
+	<FallSprite>ZombieDogFall</FallSprite>
+	<SpawnSprite>ZombieDogSpawn</SpawnSprite>
+	<BoundOffsets left = "25" right = "26" top = "25" bottom="23" />	
+	<AttackBounds left="16" right="19" top="28" bottom="28" />
+	
+	<!-- Collision data -->
+	<CollisionPoints>
+		<TopOne x="17" y="0" />
+		<TopTwo x="34" y="0" />
+		<BottomOne x="17" y="48" />
+		<BottomTwo x="34" y="48" />
+		<LeftOne x="0" y="16" />
+		<LeftTwo x="0" y="32" />
+		<RightOne x="51" y="16" />
+		<RightTwo x="51" y="32" />
+	</CollisionPoints>
+	
+	<!-- Default behaviour -->
+	<BehaviorValues>
+		<DESIRE>0</DESIRE> 
+		<FEAR>0</FEAR>
+		<AGGRESSION>0</AGGRESSION>
+		<WANDER>0</WANDER>
+		<MISC>1</MISC>
+	</BehaviorValues>
+	
+	<!-- Stats -->
+	<SightRadius>300</SightRadius>
+	<MaxLife>100</MaxLife>
+	<JumpTime>1</JumpTime>
+	
+	<!-- MELEE 0 -->
+	<!-- FIREBALL 1 -->
+	<!-- BLUE_FLAME 2 -->
+	<AttackType>0</AttackType>
+	<AttackPower>2</AttackPower>
+	<AttackCooldown>500</AttackCooldown>
+	<AttackRange>50</AttackRange>	
+	<AttackFrame>2</AttackFrame>
+	<ContactDamage>0</ContactDamage>
+	
+	<!-- Speeds -->
+	<xSpeed>0.35</xSpeed>
+	<ySpeed>0.7</ySpeed>
+	<CompositeSpeed>0.6</CompositeSpeed>	
+</ObjectData>

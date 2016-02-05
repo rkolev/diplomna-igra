@@ -1,0 +1,64 @@
+<LevelData>
+	<StaticObject name="Tile2" posX="0" posY="512" /> 
+	<StaticObject name="Tile2" posX="0" posY="0" />
+	
+	<StaticObject name="Tile1" posX="56" posY="400" />
+	<StaticObject name="Tile1" posX="88" posY="400" />
+	<StaticObject name="Tile1" posX="120" posY="400" />
+	<StaticObject name="Tile1" posX="152" posY="400" />	
+	<StaticObject name="Tile1" posX="184" posY="400" />
+	
+	<StaticObject name="Tile1" posX="284" posY="350" />
+	<StaticObject name="Tile1" posX="316" posY="350" />
+	<StaticObject name="Tile1" posX="348" posY="350" />
+	<StaticObject name="Tile1" posX="380" posY="350" />
+	<StaticObject name="Tile1" posX="412" posY="350" />
+	
+	<StaticObject name="Tile1" posX="380" posY="480" />	
+	<StaticObject name="Tile1" posX="0" posY="32" />
+	<StaticObject name="Tile1" posX="0" posY="64" />
+	<StaticObject name="Tile1" posX="0" posY="96" />
+	<StaticObject name="Tile1" posX="0" posY="128" />
+	<StaticObject name="Tile1" posX="0" posY="160" />
+	<StaticObject name="Tile1" posX="0" posY="192" />
+	<StaticObject name="Tile1" posX="0" posY="224" />
+	<StaticObject name="Tile1" posX="0" posY="256" />
+	<StaticObject name="Tile1" posX="0" posY="288" />
+	<StaticObject name="Tile1" posX="0" posY="320" />
+	<StaticObject name="Tile1" posX="0" posY="352" />
+	<StaticObject name="Tile1" posX="0" posY="384" />
+	<StaticObject name="Tile1" posX="0" posY="416" />
+	<StaticObject name="Tile1" posX="0" posY="448" />
+	<StaticObject name="Tile1" posX="0" posY="480" />
+	<StaticObject name="Tile1" posX="700" posY="502" />
+	<StaticObject name="Tile1" posX="720" posY="492" />
+	<StaticObject name="Tile1" posX="740" posY="482" />
+	<StaticObject name="Tile1" posX="760" posY="472" />
+	<StaticObject name="Tile1" posX="780" posY="462" />
+	<StaticObject name="Tile1" posX="800" posY="452" />
+	<StaticObject name="Tile1" posX="820" posY="442" />	
+	<StaticObject name="Tile1" posX="1088" posY="32" />
+	<StaticObject name="Tile1" posX="1088" posY="64" />
+	<StaticObject name="Tile1" posX="1088" posY="96" />
+	<StaticObject name="Tile1" posX="1088" posY="128" />
+	<StaticObject name="Tile1" posX="1088" posY="160" />
+	<StaticObject name="Tile1" posX="1088" posY="192" />
+	<StaticObject name="Tile1" posX="1088" posY="224" />
+	<StaticObject name="Tile1" posX="1088" posY="256" />
+	<StaticObject name="Tile1" posX="1088" posY="288" />
+	<StaticObject name="Tile1" posX="1088" posY="320" />
+	<StaticObject name="Tile1" posX="1088" posY="352" />
+	<StaticObject name="Tile1" posX="1088" posY="384" />
+	<StaticObject name="Tile1" posX="1088" posY="416" />
+	<StaticObject name="Tile1" posX="1088" posY="448" />
+	<StaticObject name="Tile1" posX="1088" posY="480" />	
+	<AnimateObject name="Background1" posX="0" posY="0" />
+	<!--<NPC name="NPC_Wraith" posX="500" posY="500" />-->
+	
+	<!-- <NPC name="NPC_Wraith" posX="700" posY="200" /> -->
+	<!-- <NPC name="NPC_ZombieDog" posX="400" posY="160" /> -->
+	<NPC name="NPC_Vampire" posX="400" posY="160" /> 
+	
+	<SpawnPointX>180</SpawnPointX>
+	<SpawnPointY>400</SpawnPointY>
+</LevelData>

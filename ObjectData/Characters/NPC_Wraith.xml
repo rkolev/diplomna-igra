@@ -1,0 +1,59 @@
+<ObjectData>
+	<!-- Flags -->
+	<Collidable>0</Collidable>
+	<Destructible>1</Destructible>
+	<CanAttack>1</CanAttack>
+	<AffectedByGravity>0</AffectedByGravity>
+	<Omnidirectional>0</Omnidirectional>
+	<Spectral>1</Spectral>
+	
+	<!-- Animation Sprites & bounds -->
+	<IdleSprite>WraithIdle</IdleSprite>
+	<AttackSprite>WraithAttack</AttackSprite>
+	<MoveSprite>WraithMove</MoveSprite>
+	<JumpSprite>WraithJump</JumpSprite>
+	<FallSprite>WraithFall</FallSprite>
+	<BoundOffsets left = "16" right = "16" top = "23" bottom="24" />
+	<AttackBounds left="16" right="19" top="28" bottom="28" />
+	
+	<!-- Collision data -->
+	<CollisionPoints>
+		<TopOne x="10" y="0" />
+		<TopTwo x="20" y="0" />
+		<BottomOne x="10" y="47" />
+		<BottomTwo x="20" y="47" />
+		<LeftOne x="0" y="16" />
+		<LeftTwo x="0" y="31" />
+		<RightOne x="32" y="16" />
+		<RightTwo x="32" y="31" />
+	</CollisionPoints>
+	
+	<!-- Default behaviour -->
+	<BehaviorValues>
+		<DESIRE>0</DESIRE> 
+		<FEAR>0</FEAR>
+		<AGGRESSION>1</AGGRESSION>
+		<WANDER>0</WANDER>
+		<MISC>0</MISC>
+	</BehaviorValues>
+	
+	<!-- Stats -->	
+	<SightRadius>300</SightRadius>		
+	<MaxLife>50</MaxLife>
+	<JumpTime>250</JumpTime>
+	
+	<!-- MELEE 0 -->
+	<!-- FIREBALL 1 -->
+	<!-- BLUE_FLAME 2 -->
+	<AttackType>0</AttackType>	
+	<AttackPower>25</AttackPower>
+	<AttackCooldown>1000</AttackCooldown>	
+	<AttackRange>50</AttackRange>	
+	<AttackFrame>4</AttackFrame>
+	<ContactDamage>0</ContactDamage>
+	
+	<!-- Speeds -->
+	<xSpeed>0.1</xSpeed>
+	<ySpeed>0.4</ySpeed>
+	<CompositeSpeed>0.25</CompositeSpeed>
+</ObjectData>
